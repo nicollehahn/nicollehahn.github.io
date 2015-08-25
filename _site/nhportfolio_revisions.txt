@@ -1,0 +1,119 @@
+size: 50px 50px,
+
+cut from clients _sass where logos would go:
+.clients-logos
+  position: relative
+  max-width: 750px
+  margin: 0px auto 100px
+  +display(flex)
+  +align-items(flex-end)
+  +justify-content(space-around)
+  
+  
+  .client-logo
+    cursor: pointer
+    margin: 0 20px 20px
+    padding-bottom: 20px
+    border-bottom: 4px solid transparent
+    opacity: 0.5
+    
+    &.active-client
+      opacity: 1
+      border-bottom: 4px solid $accent
+
+from bottom of client.html:
+
+<div class="clients-logos">
+    {% for client in site.data.settings.clients %}
+    <img class="client-logo" src="assets/img/clients/{{ client.logo }}" align="{{ client.logo }}">
+    {% endfor %}
+  </div>
+
+cut from settings.yml, from each client:
+  logo: 'logo1.png'}
+logo: 'logo2.png'
+logo: 'logo3.png'
+logo: 'logo4.png
+
+
+
+
+
+
+
+
+
+
+
+
+clients:
+- {avatar: 'face-aaroni.jpg',
+  name: 'Scott Summers',
+  title: 'Director of Design, OnToText Ind.',
+  quote: '<p><strong>While we all felt that Travis was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often.</p>',
+  logo: 'logo1.png'}
+- {avatar: 'face-atariboy.jpg',
+  name: 'Hank McCoy',
+  title: 'Eater of Salad, Antartica Int.',
+  quote: '<p><strong>Working with Travis was the highlight of my career.</strong> Other moments of note were collecting the largest number of paperclips in the office, and winning a trophy for saying "uh huh, and then what?" 30 times in a row to my girlfriend without her noticing.</p>',
+  logo: 'logo2.png'}
+- {avatar: 'face-jackiesaik.jpg',
+  name: 'Stacy Lang',
+  title: 'Social Media Girl, Quebec Int.',
+  quote: '<p><strong>Yea, I guess hes good at computers or something,</strong> but let me ask you this: If a cat always lands on its feet, and buttered bread always lands butter side down, what would happen if you tied buttered bread on top of a cat?</p>',
+  logo: 'logo3.png'}
+- {avatar: 'face-teleject.jpg',
+  name: 'Cleatus Cassidy',
+  title: 'VP of Helmut, Lorem Sorem LLC.',
+  quote: '<p><strong>Back in old country</strong> only nerds who is playing on computers. Now all bros is wanting to make codes and junk. I lost foot in war. You dont see girls asking me about homework.</p>',
+  logo: 'logo4.png'}
+
+
+
+need to add to footer .lockup .content-wrap
+footer .lockup .content-wrap {
+      float: left;
+      margin-left: 80px;
+      padding-top: 20px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+musings:
+- {avatar: '',
+  name: 'Zizi',
+  title: 'Possesses a sixth sense and is affection beyond words.',
+  quote: '<p><strong>The best part of coding is</strong> that there is always something new around the corner.  As your learning, Pandora's Box opens.  You find there is so much more waitng for you to try. </p>',}
+
+- {avatar: '',
+  name: 'Giacomo',
+  title: 'Big ball of puff and love.  Gentle giant',
+  quote: '<p><strong>Coding teaches you to have a terrific sense of humor.</strong></p>',}
+- {avatar: '',
+  name: 'Luna',
+  title: 'Even though she's a dragon lady, she's too adorable for words.',
+  quote: '<p><strong>Is it time to eat?</strong> Nobody tells you that coding works up an appetite...</p>',}
+- {avatar: '',
+  name: 'Stella',
+  title: 'Wants to be a bad girl, but is all marshmllow.',
+  quote: '<p><strong>The hidden secret of many developers is </strong> that they are wonderfully devoted to their craft.  Rather than keep it all to themeselves, they share what they know.  And are very kind to people who are beginning their experience.</p>',}
+
+
+Cappuccino
+As if I need more energy!  I love a well crafted cappucino, from top to bottom. Currently enjoying Counter Culture’s Big Trouble with Trickling Springs 2% milk.  And a shake from the cinnamon jar. There is a wonderful meditation that goes into creating my morning coffee.  Once imbibed, life is good.
+
+Wandering
+My other secret mojo.
+Visiting someplace new really refreshes me. I really enjoy being outside of the usual and familiar when I travel.  Whether it’s a different language or a
+
+new & old

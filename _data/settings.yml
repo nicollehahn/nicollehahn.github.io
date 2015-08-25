@@ -1,0 +1,108 @@
+#-------------------------------
+# General Site Settings
+
+title: Nicolle Hahn
+description: Web Developer | Rubyist | Foodie
+email: ms@nicollehahn.com
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Musings, url: '#musings'}
+- {name: Words, url: 'http://nicollehahn.github.io/blog'}
+- {name: Contact, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Nicolle Hahn portfolio, Web Developer, Rubyist, located in Baltimore, MD'
+  rel-author: 'https://plus.google.com/u/0/+nicollehahn/'
+  rel-publisher: 'https://plus.google.com/u/0/+nicollehahn/'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  Hi, I\'m Nicolle Hahn.  This is my design portfolio where I share all of my favorite work.  When I am not busy designing, developing or programming things, I am often in search of good food, good drink, or giving my cats some much needed attention. It\'s wonderful to be doing something I\'m truly passionate about.  I love to keep learning, so I believe this is a match made for the stars.
+
+
+skills:
+- {name: Communication, value: '8'}
+- {name: Organization, value: '7'}
+- {name: Learning, value: '10'}
+- {name: Teaching, value: '6'}
+- {name: Planning, value: '7'}
+- {name: Visual Design, value: '5'}
+- {name: UX Design, value: '5'}
+- {name: Programming, value: '5'}
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: Styled Wiki Page, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Grinders Coffee Co Website, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Picticious Pro Website, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Calculator Web Application, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Francesca &amp; Co. Travel Website, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Ruby on Rails Projects, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: Devgrrls Slack Channel, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: Hackathon, folder: 'proj-8', file: 'work/proj-8.html'}
+
+
+
+
+#-------------------------------
+# Musings Section
+
+clients:
+- {avatar: 'zizicomp.jpg',
+  name: 'Zizi',
+  title: 'Possesses a sixth sense and oozes affection. Excellent nurse.',
+  quote: '<p><strong>The best part of coding</strong> is that there is always something new around the corner.  HTML is the gateway drug to a world where things are constantly evolving.  I will never know too much.</p>',}
+- {avatar: 'giacomoup.jpg',
+  name: 'Giacomo',
+  title: 'Big ball of fluff and love. Gentle giant.',
+  quote: '<p><strong>Coding teaches me to have a terrific sense of humor.</strong>  If not, there would never be enough tissue for all the tears.  Everything I have learned the best has been because of one of my many errors that needed to be debugged!</p>',}
+- {avatar: 'cappucino.jpg',
+  name: 'Cappuccino',
+  title: 'My secret mojo.',
+  quote: '<p><strong>As if I need more energy!</strong> I love a well crafted cappucino, from top to bottom.  There is a wonderful meditation that goes into creating my morning libation. A couple sips and life is good.</p>',}
+- {avatar: 'skates.jpg',
+  name: 'Wandering',
+  title: 'My other secret mojo.',
+  quote: '<p><strong>Travelling to new places really invigorates me.</strong> It gives me a new perspective on the familiar (learning to trust my intuition), while simultaneously exposing me to the new and unfamiliar. I am very aware of how fortunate I am for the many journeys taken and the gifts it has given me.</p>',}
+
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'twitter', link: 'http://twitter.com/bacigirl'}{:target="_blank"}
+<<<<<<< HEAD
+- {icon: 'dribbble', link: 'https://dribbble.com/bacigirl'}{:target="_blank"}
+=======
+- {icon: 'dribbble', link: 'https://dribbble.com/nicollehahn'}{:target="_blank"}
+>>>>>>> master
+- {icon: 'github', link: 'https://www.github.com/nicollehahn'}{:target="_blank"}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/nicollehahn/'}{:target="_blank"}
+
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
