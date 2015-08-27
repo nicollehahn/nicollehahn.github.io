@@ -95,14 +95,13 @@ clients:
 # Contact Section
 
 social:
-- {icon: 'twitter', link: 'http://twitter.com/bacigirl'}{:target="_blank"}
+- {icon: 'twitter', link: 'http://twitter.com/bacigirl'}
 <<<<<<< HEAD
-- {icon: 'dribbble', link: 'https://dribbble.com/bacigirl'}{:target="_blank"}
+- {icon: 'dribbble', link: 'https://dribbble.com/bacigirl'}
 =======
-- {icon: 'dribbble', link: 'https://dribbble.com/nicollehahn'}{:target="_blank"}
->>>>>>> master
-- {icon: 'github', link: 'https://www.github.com/nicollehahn'}{:target="_blank"}
-- {icon: 'linkedin', link: 'http://www.linkedin.com/in/nicollehahn/'}{:target="_blank"}
+- {icon: 'dribbble', link: 'https://dribbble.com/nicollehahn'}
+- {icon: 'github', link: 'https://www.github.com/nicollehahn'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/nicollehahn/'}
 
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
