@@ -11,7 +11,7 @@ menu:
 - {name: About Me, url: '#about-me'}
 - {name: Work, url: '#work'}
 - {name: Musings, url: '#musings'}
-- {name: Words, url: 'http://nicollehahn.github.io/blog'}
+- {name: Words, url: 'http://codeandacup.co/'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
