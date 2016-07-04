@@ -2,7 +2,7 @@
 # General Site Settings
 
 title: Nicolle Hahn
-description: Web Developer | Rubyist | Foodie
+description: Web Developer | JavaScripter | Foodie
 email: ms@nicollehahn.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
@@ -20,7 +20,7 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: 'Nicolle Hahn portfolio, Web Developer, Rubyist, located in Baltimore, MD'
+  description: 'Nicolle Hahn portfolio, Web Developer, JavaScripter, located in Baltimore, MD'
   rel-author: 'https://plus.google.com/u/0/+nicollehahn/'
   rel-publisher: 'https://plus.google.com/u/0/+nicollehahn/'
 
@@ -44,9 +44,9 @@ skills:
 - {name: Learning, value: '10'}
 - {name: Teaching, value: '6'}
 - {name: Planning, value: '7'}
-- {name: Visual Design, value: '5'}
-- {name: UX Design, value: '5'}
-- {name: Programming, value: '5'}
+- {name: Visual Design, value: '6'}
+- {name: UX Design, value: '7'}
+- {name: Programming, value: '6'}
 
 #-------------------------------
 # Work Section
